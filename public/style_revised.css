@@ -1,0 +1,161 @@
+body{
+  height: 100vh;
+}
+/* container */
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+/* left section */
+#left {
+  background: white;
+  height: 100%;
+  width: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#image {
+  position: absolute;
+  top: 0;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+h3 {
+  position: inherit;
+}
+#cliche-logo h2 {
+  font-family: "Cascadia Mono";
+}
+form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Cascadia Mono";
+}
+#overlay {
+  width: 100%;
+  height: 100%;
+}
+/* right section */
+#right {
+  background: #d1d8ec;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+/* For the form */
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 60%;
+  color: #645aff;
+  padding: 10px 25px 10px 25px;
+  justify-content: space-evenly;
+  -webkit-border-radius: 16px;
+  border-radius: 16px;
+  background: #d1d8ec;
+  -webkit-box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+  box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+}
+/* logo */
+#cliche-logo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 10px;
+  z-index: 2;
+  height: 100%;
+  padding: 30px 40px;
+}
+/* Feileds for the login page */
+label {
+  font-size: 14px;
+}
+#submit {
+  margin-top: 10px;
+  background-color: #645aff;
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  font-family: "Cascadia Mono";
+  cursor: pointer;
+}
+#submit:hover {
+  background-color: #655affc2;
+}
+.field {
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid whitesmoke;
+  background: transparent;
+  border-radius: 5px;
+  padding-left: 2px;
+}
+.field:focus {
+  outline: none;
+}
+
+#password {
+  margin-top: 20px;
+}
+#access {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+
+/* Revised with bootstrap */
+#left-side{
+  background: #d1d8ec;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#right-side{
+  background-color: white;
+  height: 100%;
+  position: relative;
+}
+
+form{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100%;
+}
+#title{
+  text-align: center;
+  font-family: 'Cascadia Mono';
+  color: white;
+}
+
+#logo{
+  position: absolute;
+  font-family: 'Cascadia Mono';
+  top: 25px;
+  left: 25px;
+}
+#image{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+}
+span{
+  font-size: small;
+}

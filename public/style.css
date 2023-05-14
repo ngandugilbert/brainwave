@@ -1,0 +1,37 @@
+body{
+    height: 100vh;
+    
+}
+#login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #d1d8ec;
+   
+}
+#form-area{
+    -webkit-border-radius: 16px;
+    border-radius: 16px;
+    background: #d1d8ec;
+    -webkit-box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+    box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+}
+#title{
+    text-align: center;
+    margin: 0 0 40px 0 ;
+    font-family: 'Cascadia Mono';
+    color: whitesmoke;
+    
+}
+form{
+    color: #0d6efd;
+}
+span{
+    color: black;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
