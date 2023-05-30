@@ -4,9 +4,6 @@ require_once './cookies/State.php';
 
 class UserModel extends Database
 {
-    private $connection;
-    private $state;
-
     //get all users
     function get_users()
     {
@@ -67,7 +64,6 @@ class UserModel extends Database
                     echo 'equal';
                 }
             }
-
             return true;
         } else {
             return false;
